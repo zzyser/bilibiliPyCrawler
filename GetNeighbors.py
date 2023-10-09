@@ -53,4 +53,3 @@ def GetNeighborList(uid):
     return user_name, mids_unique, unames_unique
 
 
-
