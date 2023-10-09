@@ -6,7 +6,7 @@ from random import choice
 import pandas as pd
 
 
-# 广度优先算法
+# 广度优先遍历算法
 def BFS_sampling(sampling_node_number, start_id):
     node_list = [start_id]
     pointer = 0
@@ -106,7 +106,7 @@ def FF_sampling(sampling_node_number, start_id):
         print('已爬取节点数：', len(node_list))
 
 
-# 旅行者算法
+# 简单随机游走算法
 def SRW_sampling(sampling_node_number, start_id):
     node_list = []
     current_node_number = 0
