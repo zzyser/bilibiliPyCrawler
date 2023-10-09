@@ -1,7 +1,8 @@
 import pandas as pd
 import numpy as np
 import json
-#清洗id生成
+
+# 清洗id生成
 data = pd.read_csv(r'C:/Game/graph_data.csv')
 print('\n', data.info())
 print('\n', data.head())
@@ -30,6 +31,7 @@ with open(r'C:/Game/graph.txt', 'w', encoding='utf-8') as txt:
         line = json.dumps(eval(str(user_id_data.iloc[i, 0]))) + ' ' + json.dumps(eval(str(user_id_data.iloc[i, 1])))
         txt.write(line + '\n')
 txt.close()
+
 # 存储新id转换旧id的字典
 with open(r'C:/Game/id_dict.txt', 'w', encoding='utf-8') as txt:
     for key in dict_id_new_to_old.keys():
