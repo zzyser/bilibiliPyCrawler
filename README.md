@@ -26,6 +26,12 @@
 
 UID1 UID2 来表示无向图中节点UID1和节点UID2的边 
 
+![image-20231009091438369](C:\Users\25823\AppData\Roaming\Typora\typora-user-images\image-20231009091438369.png)
+
+![image-20231009091449259](C:\Users\25823\AppData\Roaming\Typora\typora-user-images\image-20231009091449259.png)
+
+![image-20231009091456033](C:\Users\25823\AppData\Roaming\Typora\typora-user-images\image-20231009091456033.png)
+
 
 
 ​		在三种爬取策略中，使用广度优先遍历算法的程序运行效率明显高于使用简单随机游走遍历算法和随机游走遍历算法的程序运行效率。对于广度优先遍历算法，适用于分析粉丝量较大的用户的关系网络，通过该算法爬取的用户都是以一个用户为中心扩散开来。而对于简单随机游走遍历算法和随机游走遍历算法，则适用于分析没有限定主要范围时的用户关系网络。如何选择正确的算法，很大程度上取决于我们的需求，不同的算法对应不同的需求。
