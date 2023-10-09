@@ -26,11 +26,7 @@
 
 UID1 UID2 来表示无向图中节点UID1和节点UID2的边 
 
-![image-20231009091438369](C:\Users\25823\AppData\Roaming\Typora\typora-user-images\image-20231009091438369.png)
 
-![image-20231009091449259](C:\Users\25823\AppData\Roaming\Typora\typora-user-images\image-20231009091449259.png)
-
-![image-20231009091456033](C:\Users\25823\AppData\Roaming\Typora\typora-user-images\image-20231009091456033.png)
 
 
 
