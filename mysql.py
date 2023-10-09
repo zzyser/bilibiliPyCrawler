@@ -93,3 +93,4 @@ if __name__ == '__main__':
             cursor.execute(sql % data)
             connect.commit()  # 提交查询语句，改变数据库中的数据
             print("插入成功")
+
