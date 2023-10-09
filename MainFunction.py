@@ -12,6 +12,7 @@ if __name__ == '__main__':
     # 起始用户id
     start_id = 47655022
     # 采样
+    # 三种遍历算法
     BFS_sampling(sampling_node_number, start_id)
     # SRW_sampling(sampling_node_number, start_id)
     # FF_sampling(sampling_node_number, start_id)
